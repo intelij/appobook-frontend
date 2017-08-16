@@ -13,7 +13,7 @@ export class AppointmentsComponent implements OnInit {
   }
 
   calendarOptions:Object = {
-    height: 'parent',
+    // height: 'parent',
     fixedWeekCount : false,
     defaultDate: '2016-09-12',
     editable: true,
