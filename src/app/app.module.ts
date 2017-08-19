@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { MaterializeModule } from 'angular2-materialize';
 import { CalendarComponent } from "ap-angular2-fullcalendar";
 
 import { AppComponent } from './app.component';
@@ -15,7 +16,8 @@ import { CalendarModule } from "ap-angular2-fullcalendar";
     CalendarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MaterializeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
